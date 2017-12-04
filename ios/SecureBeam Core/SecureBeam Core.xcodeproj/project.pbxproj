@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E230E4D6B5F1A23023517D0 /* Pods_SecureBeam_CoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B036AAE47F3027512D751A4 /* Pods_SecureBeam_CoreTests.framework */; };
 		5B04FD7D1FD5D9C500F1ADB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FD7C1FD5D9C500F1ADB7 /* AppDelegate.swift */; };
 		5B04FD7F1FD5D9C500F1ADB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FD7E1FD5D9C500F1ADB7 /* ViewController.swift */; };
 		5B04FD821FD5D9C500F1ADB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04FD801FD5D9C500F1ADB7 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		5B04FD9D1FD5D9C500F1ADB7 /* SecureBeam_CoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FD9C1FD5D9C500F1ADB7 /* SecureBeam_CoreUITests.swift */; };
 		5B04FDAB1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FDAA1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift */; };
 		5B04FDAD1FD5E48800F1ADB7 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FDAC1FD5E48800F1ADB7 /* Document.swift */; };
+		A8706089B5182AAA6D7B0236 /* Pods_SecureBeam_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A6CD840893196DA6D29EAA /* Pods_SecureBeam_Core.framework */; };
+		E474F44C16CDA4FE559916DE /* Pods_SecureBeam_CoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC517BCD250C820F9ABF342 /* Pods_SecureBeam_CoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		409D98BBD71972DBFF16FE19 /* Pods-SecureBeam CoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam CoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam CoreTests/Pods-SecureBeam CoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B04FD791FD5D9C500F1ADB7 /* SecureBeam Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecureBeam Core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B04FD7C1FD5D9C500F1ADB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B04FD7E1FD5D9C500F1ADB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		5B04FD9E1FD5D9C500F1ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B04FDAA1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		5B04FDAC1FD5E48800F1ADB7 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		72A6CD840893196DA6D29EAA /* Pods_SecureBeam_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureBeam_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B036AAE47F3027512D751A4 /* Pods_SecureBeam_CoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureBeam_CoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8311F27D96A4C1F7A58DB6C9 /* Pods-SecureBeam Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam Core.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam Core/Pods-SecureBeam Core.release.xcconfig"; sourceTree = "<group>"; };
+		9FCAF25178403B36B38F7D1B /* Pods-SecureBeam CoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam CoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam CoreUITests/Pods-SecureBeam CoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28FA6C00A516A40B17FC05D /* Pods-SecureBeam CoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam CoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam CoreTests/Pods-SecureBeam CoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		C79F9AA2B1B8CB3186C7CAEA /* Pods-SecureBeam CoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam CoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam CoreUITests/Pods-SecureBeam CoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFA8F926E8DDAE2EBF9A80C3 /* Pods-SecureBeam Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureBeam Core.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecureBeam Core/Pods-SecureBeam Core.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC517BCD250C820F9ABF342 /* Pods_SecureBeam_CoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureBeam_CoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8706089B5182AAA6D7B0236 /* Pods_SecureBeam_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E230E4D6B5F1A23023517D0 /* Pods_SecureBeam_CoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E474F44C16CDA4FE559916DE /* Pods_SecureBeam_CoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F45364A9816528DF9DA3100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA8F926E8DDAE2EBF9A80C3 /* Pods-SecureBeam Core.debug.xcconfig */,
+				8311F27D96A4C1F7A58DB6C9 /* Pods-SecureBeam Core.release.xcconfig */,
+				409D98BBD71972DBFF16FE19 /* Pods-SecureBeam CoreTests.debug.xcconfig */,
+				C28FA6C00A516A40B17FC05D /* Pods-SecureBeam CoreTests.release.xcconfig */,
+				9FCAF25178403B36B38F7D1B /* Pods-SecureBeam CoreUITests.debug.xcconfig */,
+				C79F9AA2B1B8CB3186C7CAEA /* Pods-SecureBeam CoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B04FD701FD5D9C500F1ADB7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				5B04FD901FD5D9C500F1ADB7 /* SecureBeam CoreTests */,
 				5B04FD9B1FD5D9C500F1ADB7 /* SecureBeam CoreUITests */,
 				5B04FD7A1FD5D9C500F1ADB7 /* Products */,
+				2F45364A9816528DF9DA3100 /* Pods */,
+				C083776B841AF403233D3F39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +161,16 @@
 			path = "SecureBeam CoreUITests";
 			sourceTree = "<group>";
 		};
+		C083776B841AF403233D3F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A6CD840893196DA6D29EAA /* Pods_SecureBeam_Core.framework */,
+				7B036AAE47F3027512D751A4 /* Pods_SecureBeam_CoreTests.framework */,
+				ECC517BCD250C820F9ABF342 /* Pods_SecureBeam_CoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B04FDA11FD5D9C500F1ADB7 /* Build configuration list for PBXNativeTarget "SecureBeam Core" */;
 			buildPhases = (
+				BC928379475CAD6ECBAD7DF8 /* [CP] Check Pods Manifest.lock */,
 				5B04FD751FD5D9C500F1ADB7 /* Sources */,
 				5B04FD761FD5D9C500F1ADB7 /* Frameworks */,
 				5B04FD771FD5D9C500F1ADB7 /* Resources */,
+				43906633B826422D4F2A9F09 /* [CP] Embed Pods Frameworks */,
+				A453862E08E647513F0782A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B04FDA41FD5D9C500F1ADB7 /* Build configuration list for PBXNativeTarget "SecureBeam CoreTests" */;
 			buildPhases = (
+				EE0A189AC2A42974664A1F5C /* [CP] Check Pods Manifest.lock */,
 				5B04FD891FD5D9C500F1ADB7 /* Sources */,
 				5B04FD8A1FD5D9C500F1ADB7 /* Frameworks */,
 				5B04FD8B1FD5D9C500F1ADB7 /* Resources */,
+				866BD4F569C56EB2FC5EAE60 /* [CP] Embed Pods Frameworks */,
+				922A8D6D6822F8168DAF8937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B04FDA71FD5D9C500F1ADB7 /* Build configuration list for PBXNativeTarget "SecureBeam CoreUITests" */;
 			buildPhases = (
+				56761023FDF81BCAD93FEE4D /* [CP] Check Pods Manifest.lock */,
 				5B04FD941FD5D9C500F1ADB7 /* Sources */,
 				5B04FD951FD5D9C500F1ADB7 /* Frameworks */,
 				5B04FD961FD5D9C500F1ADB7 /* Resources */,
+				3C8327E86A7B21A7B359261E /* [CP] Embed Pods Frameworks */,
+				AE14705F1A12DBA0DDCEFB82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C8327E86A7B21A7B359261E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam CoreUITests/Pods-SecureBeam CoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43906633B826422D4F2A9F09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam Core/Pods-SecureBeam Core-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam Core/Pods-SecureBeam Core-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56761023FDF81BCAD93FEE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureBeam CoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866BD4F569C56EB2FC5EAE60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam CoreTests/Pods-SecureBeam CoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922A8D6D6822F8168DAF8937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam CoreTests/Pods-SecureBeam CoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A453862E08E647513F0782A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam Core/Pods-SecureBeam Core-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE14705F1A12DBA0DDCEFB82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureBeam CoreUITests/Pods-SecureBeam CoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC928379475CAD6ECBAD7DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureBeam Core-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0A189AC2A42974664A1F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureBeam CoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B04FD751FD5D9C500F1ADB7 /* Sources */ = {
@@ -432,6 +631,7 @@
 		};
 		5B04FDA21FD5D9C500F1ADB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA8F926E8DDAE2EBF9A80C3 /* Pods-SecureBeam Core.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +647,7 @@
 		};
 		5B04FDA31FD5D9C500F1ADB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8311F27D96A4C1F7A58DB6C9 /* Pods-SecureBeam Core.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +663,7 @@
 		};
 		5B04FDA51FD5D9C500F1ADB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409D98BBD71972DBFF16FE19 /* Pods-SecureBeam CoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +681,7 @@
 		};
 		5B04FDA61FD5D9C500F1ADB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28FA6C00A516A40B17FC05D /* Pods-SecureBeam CoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +699,7 @@
 		};
 		5B04FDA81FD5D9C500F1ADB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCAF25178403B36B38F7D1B /* Pods-SecureBeam CoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +716,7 @@
 		};
 		5B04FDA91FD5D9C500F1ADB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79F9AA2B1B8CB3186C7CAEA /* Pods-SecureBeam CoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

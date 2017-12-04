@@ -25,28 +25,38 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eS-9o-22m">
-                                <rect key="frame" x="85" y="119" width="205" height="30"/>
-                                <state key="normal" title="Browser Documents"/>
+                                <rect key="frame" x="85" y="189" width="205" height="30"/>
+                                <state key="normal" title="Browse Documents"/>
                                 <connections>
                                     <action selector="touchedBrowseDocuments:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIk-9K-Q1y"/>
                                     <segue destination="RsH-00-LKQ" kind="showDetail" identifier="browseDocuments" id="d1a-NS-OIX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep4-6j-fd3">
+                                <rect key="frame" x="85" y="122" width="205" height="30"/>
+                                <state key="normal" title="Generate Key Pair"/>
+                                <connections>
+                                    <action selector="touchedGenerateKeyPair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SL4-Cc-Qlf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3jZ-fs-and"/>
-                            <constraint firstItem="2eS-9o-22m" firstAttribute="top" secondItem="fUw-Xl-8Jx" secondAttribute="bottom" constant="48" id="4Oo-eF-n7b"/>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="2eS-9o-22m" secondAttribute="centerX" id="Eee-sd-hh8"/>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Mnt-fJ-36m"/>
-                            <constraint firstItem="2eS-9o-22m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="qrc-7g-Zo7"/>
+                            <constraint firstItem="ep4-6j-fd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="9mU-AK-Xv0"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="FTY-vf-0du"/>
+                            <constraint firstItem="ep4-6j-fd3" firstAttribute="leading" secondItem="2eS-9o-22m" secondAttribute="leading" id="ITt-G5-7NK"/>
+                            <constraint firstItem="ep4-6j-fd3" firstAttribute="top" secondItem="fUw-Xl-8Jx" secondAttribute="bottom" constant="51" id="J0w-n8-Tgc"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="ep4-6j-fd3" secondAttribute="centerX" id="L4W-cI-ex4"/>
+                            <constraint firstItem="ep4-6j-fd3" firstAttribute="trailing" secondItem="2eS-9o-22m" secondAttribute="trailing" id="Ta9-WE-bSz"/>
+                            <constraint firstItem="2eS-9o-22m" firstAttribute="top" secondItem="ep4-6j-fd3" secondAttribute="bottom" constant="37" id="gB2-v3-QXp"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uPG-xZ-rgv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="130"/>
+            <point key="canvasLocation" x="112.8" y="129.98500749625188"/>
         </scene>
         <!--Document Browser View Controller-->
         <scene sceneID="e5D-VL-Sku">
