@@ -14,6 +14,8 @@
 		5B04FD871FD5D9C500F1ADB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04FD851FD5D9C500F1ADB7 /* LaunchScreen.storyboard */; };
 		5B04FD921FD5D9C500F1ADB7 /* SecureBeam_CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FD911FD5D9C500F1ADB7 /* SecureBeam_CoreTests.swift */; };
 		5B04FD9D1FD5D9C500F1ADB7 /* SecureBeam_CoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FD9C1FD5D9C500F1ADB7 /* SecureBeam_CoreUITests.swift */; };
+		5B04FDAB1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FDAA1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift */; };
+		5B04FDAD1FD5E48800F1ADB7 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FDAC1FD5E48800F1ADB7 /* Document.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5B04FD981FD5D9C500F1ADB7 /* SecureBeam CoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SecureBeam CoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B04FD9C1FD5D9C500F1ADB7 /* SecureBeam_CoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureBeam_CoreUITests.swift; sourceTree = "<group>"; };
 		5B04FD9E1FD5D9C500F1ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B04FDAA1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		5B04FDAC1FD5E48800F1ADB7 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5B04FD831FD5D9C500F1ADB7 /* Assets.xcassets */,
 				5B04FD851FD5D9C500F1ADB7 /* LaunchScreen.storyboard */,
 				5B04FD881FD5D9C500F1ADB7 /* Info.plist */,
+				5B04FDAA1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift */,
+				5B04FDAC1FD5E48800F1ADB7 /* Document.swift */,
 			);
 			path = "SecureBeam Core";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B04FDAD1FD5E48800F1ADB7 /* Document.swift in Sources */,
 				5B04FD7F1FD5D9C500F1ADB7 /* ViewController.swift in Sources */,
+				5B04FDAB1FD5E2D200F1ADB7 /* DocumentBrowserViewController.swift in Sources */,
 				5B04FD7D1FD5D9C500F1ADB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

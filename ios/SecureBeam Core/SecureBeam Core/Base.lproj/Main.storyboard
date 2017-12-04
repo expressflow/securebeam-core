@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,30 +13,55 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecureBeam_Core" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SecureBeam_Core" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SecureBeam Core" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUw-Xl-8Jx">
-                                <rect key="frame" x="16" y="51" width="343" height="21"/>
+                                <rect key="frame" x="118" y="50" width="139" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1058823529" green="0.71372549019999998" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eS-9o-22m">
+                                <rect key="frame" x="85" y="119" width="205" height="30"/>
+                                <state key="normal" title="Browser Documents"/>
+                                <connections>
+                                    <action selector="touchedBrowseDocuments:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIk-9K-Q1y"/>
+                                    <segue destination="RsH-00-LKQ" kind="showDetail" identifier="browseDocuments" id="d1a-NS-OIX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="A2d-iA-B5q"/>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="PaV-ba-Fg0"/>
-                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tM4-Wf-qj2"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3jZ-fs-and"/>
+                            <constraint firstItem="2eS-9o-22m" firstAttribute="top" secondItem="fUw-Xl-8Jx" secondAttribute="bottom" constant="48" id="4Oo-eF-n7b"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="2eS-9o-22m" secondAttribute="centerX" id="Eee-sd-hh8"/>
+                            <constraint firstItem="fUw-Xl-8Jx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Mnt-fJ-36m"/>
+                            <constraint firstItem="2eS-9o-22m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="qrc-7g-Zo7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="113" y="130"/>
+        </scene>
+        <!--Document Browser View Controller-->
+        <scene sceneID="e5D-VL-Sku">
+            <objects>
+                <viewController id="RsH-00-LKQ" customClass="DocumentBrowserViewController" customModule="SecureBeam_Core" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Krw-Wz-flj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pNn-dY-U8n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eo7-fS-Vyq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="130"/>
         </scene>
     </scenes>
 </document>
