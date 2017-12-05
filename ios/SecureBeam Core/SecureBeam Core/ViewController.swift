@@ -11,9 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     
     var document: UIDocument?
-
+    @IBOutlet weak var publicKeyLabel: UILabel!
+    @IBOutlet weak var publicKeyText: UILabel!
+    @IBOutlet weak var privateKeyLabel: UILabel!
+    @IBOutlet weak var privateKeyText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.publicKeyLabel.isHidden = true
         
         // Access the document
         document?.open(completionHandler: { (success) in
@@ -45,7 +50,22 @@ class ViewController: UIViewController {
             guard let privateKey = SecKeyCreateRandomKey(attributes as CFDictionary, &error) else {
                 throw error!.takeRetainedValue() as Error
             }
+            if let cfdata = SecKeyCopyExternalRepresentation(privateKey, &error) {
+                let data:Data = cfdata as Data
+                let b64PrivateKey = data.base64EncodedString()
+                self.privateKeyLabel.isHidden = false
+                self.privateKeyText.text = b64PrivateKey
+                self.privateKeyText.isHidden = false
+            }
             let publicKey = SecKeyCopyPublicKey(privateKey)
+            var error:Unmanaged<CFError>?
+            if let cfdata = SecKeyCopyExternalRepresentation(publicKey!, &error) {
+                let data:Data = cfdata as Data
+                let b64Key = data.base64EncodedString()
+                self.publicKeyLabel.isHidden = false
+                self.publicKeyText.text = b64Key
+                self.publicKeyText.isHidden = false
+            }
         } catch {
             print(error)
         }

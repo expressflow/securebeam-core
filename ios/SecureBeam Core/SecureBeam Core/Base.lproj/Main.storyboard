@@ -24,7 +24,7 @@
                                 <color key="textColor" red="0.1058823529" green="0.71372549019999998" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eS-9o-22m">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eS-9o-22m">
                                 <rect key="frame" x="85" y="189" width="205" height="30"/>
                                 <state key="normal" title="Browse Documents"/>
                                 <connections>
@@ -39,20 +39,64 @@
                                     <action selector="touchedGenerateKeyPair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SL4-Cc-Qlf"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public Key:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urS-HS-oS6">
+                                <rect key="frame" x="59" y="262" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jK-rb-Pzx">
+                                <rect key="frame" x="59" y="291" width="256" height="160"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UK6-Hb-aSa">
+                                <rect key="frame" x="59" y="488" width="256" height="159"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private Key:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVE-hj-DyB">
+                                <rect key="frame" x="59" y="459" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7jK-rb-Pzx" firstAttribute="top" secondItem="urS-HS-oS6" secondAttribute="bottom" constant="8" symbolic="YES" id="2e1-ka-5rN"/>
                             <constraint firstItem="ep4-6j-fd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="9mU-AK-Xv0"/>
+                            <constraint firstItem="UK6-Hb-aSa" firstAttribute="leading" secondItem="pVE-hj-DyB" secondAttribute="leading" id="C1B-ky-Yij"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7jK-rb-Pzx" secondAttribute="bottom" constant="216" id="Ej2-ol-Y4g"/>
                             <constraint firstItem="fUw-Xl-8Jx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="FTY-vf-0du"/>
+                            <constraint firstItem="urS-HS-oS6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-61" id="H4c-YY-yeM"/>
                             <constraint firstItem="ep4-6j-fd3" firstAttribute="leading" secondItem="2eS-9o-22m" secondAttribute="leading" id="ITt-G5-7NK"/>
                             <constraint firstItem="ep4-6j-fd3" firstAttribute="top" secondItem="fUw-Xl-8Jx" secondAttribute="bottom" constant="51" id="J0w-n8-Tgc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UK6-Hb-aSa" secondAttribute="bottom" constant="20" id="KWd-d2-fXr"/>
                             <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="ep4-6j-fd3" secondAttribute="centerX" id="L4W-cI-ex4"/>
+                            <constraint firstItem="UK6-Hb-aSa" firstAttribute="trailing" secondItem="pVE-hj-DyB" secondAttribute="trailing" id="LTa-HF-6Xb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pVE-hj-DyB" secondAttribute="bottom" constant="187" id="NNZ-a4-034"/>
+                            <constraint firstItem="7jK-rb-Pzx" firstAttribute="trailing" secondItem="urS-HS-oS6" secondAttribute="trailing" id="Q3d-tj-JiG"/>
+                            <constraint firstItem="urS-HS-oS6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="QYD-wq-mPv"/>
+                            <constraint firstItem="7jK-rb-Pzx" firstAttribute="leading" secondItem="urS-HS-oS6" secondAttribute="leading" id="TDd-g4-Qbq"/>
                             <constraint firstItem="ep4-6j-fd3" firstAttribute="trailing" secondItem="2eS-9o-22m" secondAttribute="trailing" id="Ta9-WE-bSz"/>
+                            <constraint firstItem="pVE-hj-DyB" firstAttribute="trailing" secondItem="7jK-rb-Pzx" secondAttribute="trailing" id="VIE-pK-9cc"/>
                             <constraint firstItem="2eS-9o-22m" firstAttribute="top" secondItem="ep4-6j-fd3" secondAttribute="bottom" constant="37" id="gB2-v3-QXp"/>
+                            <constraint firstItem="urS-HS-oS6" firstAttribute="centerX" secondItem="2eS-9o-22m" secondAttribute="centerX" id="j9C-Lu-YFI"/>
+                            <constraint firstItem="pVE-hj-DyB" firstAttribute="leading" secondItem="7jK-rb-Pzx" secondAttribute="leading" id="qJ1-Od-Dv5"/>
                             <constraint firstItem="fUw-Xl-8Jx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uPG-xZ-rgv"/>
+                            <constraint firstItem="UK6-Hb-aSa" firstAttribute="top" secondItem="pVE-hj-DyB" secondAttribute="bottom" constant="8" symbolic="YES" id="xik-3z-FvG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="privateKeyLabel" destination="pVE-hj-DyB" id="0JN-mD-HfI"/>
+                        <outlet property="privateKeyText" destination="UK6-Hb-aSa" id="QqA-25-D3t"/>
+                        <outlet property="publicKeyLabel" destination="urS-HS-oS6" id="UOX-pF-OhT"/>
+                        <outlet property="publicKeyText" destination="7jK-rb-Pzx" id="i5L-af-9aE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
